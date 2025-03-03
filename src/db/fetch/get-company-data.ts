@@ -9,6 +9,7 @@ export async function getCompanyData() {
 				id: companiesTable.id,
 				name: companiesTable.name,
 				industry: companiesTable.industry,
+				regime_support: companiesTable.regime_support,
 				created_at: companiesTable.created_at
 			})
 			.from(companiesTable);
